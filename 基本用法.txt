@@ -1,0 +1,12 @@
+1. 拍照导入人脸：
+   python take_pic.py -n <名字>
+   按t拍照，按q结束
+
+2. 手动导入人脸：
+   将人脸照片放入data/facebank/<名字>/文件夹下
+   （需要人脸部分，裁剪非人脸部分）
+
+3. 摄像头人脸识别：
+   python face_verify.py -u
+   或 python face_verify.py --update
+   注意：导入人脸后第一次运行需要加-u或--update参数，后续不需要
